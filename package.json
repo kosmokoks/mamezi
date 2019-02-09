@@ -1,9 +1,9 @@
 {
-  "name": "Starter",
+  "name": "Front",
   "version": "1.0.0",
-  "description": "Starter",
+  "description": "Front - Responsive Website Template",
   "main": "gulpfile.js",
-  "author": "szef0",
+  "author": "htmlstream",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,6 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglifyjs": "^0.6.2",
+    "gulp-uglifyjs": "^0.6.2"
   }
 }
