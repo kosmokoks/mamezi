@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="a" unicode="&#xe800;" d="M387 686a33 33 0 0 0 33 33h99v98a33 33 0 1 0 65 0v-98h98a33 33 0 0 0 0-65h-98v-99a33 33 0 1 0-65 0v99h-99a33 33 0 0 0-33 32z m570-269l-78-342a33 33 0 0 0-32-25h-543a32 32 0 0 0-32 25l-90 343v0l-20 81h-129a33 33 0 0 0 0 65h154a33 33 0 0 0 31-24l21-80 686 0a32 32 0 0 0 26-13 34 34 0 0 0 6-28z m-73-25l-628 0 73-277h492z m-499-411a66 66 0 1 1 65-65 66 66 0 0 1-65 65z m394 0a66 66 0 1 1 65-65 66 66 0 0 1-66 65z" horiz-adv-x="958" />
+
+<glyph glyph-name="b" unicode="&#xe801;" d="M692 517l51 51a34 34 0 0 1-48 47l-51-52a395 395 0 0 1-245 84 400 400 0 1 1 293-130z m-293-600a332 332 0 1 0 332 332 332 332 0 0 0-332-332z m77 332a77 77 0 1 0-154 0 77 77 0 0 0 43 68v165a34 34 0 1 0 67 0v-165a77 77 0 0 0 43-68z m-204 568a34 34 0 0 0 33 33h173a34 34 0 0 0 0-67h-53v-74a34 34 0 1 0-66 0v74h-54a34 34 0 0 0-33 34z" horiz-adv-x="797" />
+
+<glyph glyph-name="truck" unicode="&#xe802;" d="M583 850v-208h-363l-86-259-134-45v-363h173a166 166 0 0 1 321 0h345a166 166 0 0 1 322 0h172v83h-172a166 166 0 0 1-322 0h-172v709h666v83z m-250-917a83 83 0 1 0 84 84 83 83 0 0 0-84-84z m250 125h-89a166 166 0 0 1-321 0h-90v220l90 30h410z m0 334h-358l55 166h303z m417-292a83 83 0 1 0-83-83 83 83 0 0 0 83 83z m83 458h-333v84h333z m167 0h-83v84h83z m-83-166h-250v83h250z m83 83h83v-83h-83z" horiz-adv-x="1333" />
+</font>
+</defs>
+</svg>
