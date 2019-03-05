@@ -254,7 +254,7 @@ body {
 .main-wrapper header > div .clock-bg .extra-text:before {
   content: "";
   position: absolute;
-  bottom: -12px;
+  bottom: -11px;
   left: 0;
   width: 0;
   height: 0;
@@ -690,6 +690,7 @@ body {
 @media (max-width: 767px) {
   .main-wrapper .row > div {
     width: 50%;
+    padding: 5px;
   }
 }
 
