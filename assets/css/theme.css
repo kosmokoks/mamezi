@@ -86,6 +86,8 @@
 /* '' */
 body {
   font-family: "Gotham";
+  margin: 0;
+  padding: 0;
 }
 
 .flex {
@@ -97,6 +99,10 @@ body {
       justify-content: center;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .main-wrapper {
   width: 1530px;
   margin: 0 auto;
@@ -105,6 +111,7 @@ body {
 @media (max-width: 1530px) {
   .main-wrapper {
     width: 100%;
+    padding: 0 10px;
   }
 }
 
@@ -126,7 +133,6 @@ body {
 .main-wrapper header > div {
   height: 100%;
   width: 40%;
-  box-sizing: border-box;
   position: relative;
 }
 
@@ -555,7 +561,6 @@ body {
   text-decoration: none;
   width: 25%;
   padding: 10px;
-  box-sizing: border-box;
 }
 
 @media (max-width: 1290px) {
@@ -570,7 +575,7 @@ body {
   }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 374px) {
   .main-wrapper main .row > div {
     width: 100%;
   }
@@ -636,9 +641,32 @@ body {
       justify-content: space-between;
 }
 
+@media (max-width: 620px) {
+  .main-wrapper main .row > div .inner-box .top {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 375px) {
+  .main-wrapper main .row > div .inner-box .top {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
 .main-wrapper main .row > div .inner-box .top .quantity {
   color: #000;
   padding-left: 10px;
+}
+
+@media (max-width: 620px) {
+  .main-wrapper main .row > div .inner-box .top .quantity {
+    width: 100%;
+    -ms-flex-order: 2;
+        order: 2;
+    padding: 8px 0;
+  }
 }
 
 .main-wrapper main .row > div .inner-box .top .quantity i {
@@ -661,6 +689,25 @@ body {
   font-weight: 500;
 }
 
+@media (max-width: 620px) {
+  .main-wrapper main .row > div .inner-box .top .save-money {
+    width: 100%;
+  }
+}
+
+@media (max-width: 470px) {
+  .main-wrapper main .row > div .inner-box .top .save-money {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .main-wrapper main .row > div .inner-box .top .save-money {
+    -ms-flex-order: 2;
+        order: 2;
+  }
+}
+
 .main-wrapper main .row > div .inner-box .top .save-money strong {
   font-weight: 800;
   margin-left: 5px;
@@ -668,10 +715,29 @@ body {
 
 .main-wrapper main .row > div .inner-box .photo {
   margin: 75px auto;
-  height: 139px;
+  height: 140px;
   width: 300px;
   position: relative;
   transition: all .2s ease-in-out;
+  overflow: hidden;
+}
+
+@media (max-width: 620px) {
+  .main-wrapper main .row > div .inner-box .photo {
+    margin: 45px auto;
+  }
+}
+
+@media (max-width: 470px) {
+  .main-wrapper main .row > div .inner-box .photo {
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .main-wrapper main .row > div .inner-box .photo {
+    margin: 75px auto;
+  }
 }
 
 .main-wrapper main .row > div .inner-box .photo img {
@@ -680,6 +746,7 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  max-width: 100%;
 }
 
 .main-wrapper main .row > div .inner-box .bottom {
@@ -702,10 +769,22 @@ body {
   margin-right: 15px;
 }
 
+@media (max-width: 470px) {
+  .main-wrapper main .row > div .inner-box .bottom .price .current {
+    font-size: 17px;
+  }
+}
+
 .main-wrapper main .row > div .inner-box .bottom .price .old {
   font-size: 14px;
   color: #1a171b;
   position: relative;
+}
+
+@media (max-width: 470px) {
+  .main-wrapper main .row > div .inner-box .bottom .price .old {
+    font-size: 12px;
+  }
 }
 
 .main-wrapper main .row > div .inner-box .bottom .price .old:before {

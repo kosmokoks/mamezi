@@ -6,7 +6,7 @@ $(document).ready(function () {
 
     function countDownTimer() {
         if ($(".time").length > 0) {
-            var countDownDate = new Date("March 7, 2019 23:59:25").getTime();
+            var countDownDate = new Date("March 14, 2019 23:59:25").getTime();
 
             var x = setInterval(function () {
                 var now = new Date().getTime();
@@ -23,7 +23,7 @@ $(document).ready(function () {
 
                 if (distance < 0) {
                     clearInterval(x);
-                    $(".time").html("EXPIRED");
+                    $(".time").html("Promocja zakończyła się");
                 }
             }, 1000);
         }
@@ -34,10 +34,8 @@ $(document).ready(function () {
 
         $.ajax({
             type: "get",
-            cache: true,
             url: "example.json",
             success: function (data) {
-                // var obj = JSON.parse(data);
                 if (data.count > 0) {
                     var listItems = data.list;
 
@@ -82,18 +80,12 @@ $(document).ready(function () {
 
                             results.push(extraHtml);
                         }
-
                     });
                 } else {
                     results.push('<a>Niestety nic nie znaleziono</a>');
                 }
                 $('.row').addClass('active').html(results);
-
             },
-            error: function () {
-
-            }
-
         });
     }
 
