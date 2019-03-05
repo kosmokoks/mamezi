@@ -133,6 +133,8 @@ body {
 }
 
 .main-wrapper header > div .clock-bg .discount-day .photo-clock {
+  width: 240px;
+  height: 240px;
   z-index: -1;
   position: absolute;
   top: 50%;
