@@ -450,6 +450,12 @@ body {
         -o-animation: fadein 2s;
         animation: fadein 2s;
         display: none;
+        @media(max-width: 767px) {
+            margin: 0 -5px;
+        }
+        @media(max-width: 480px) {
+            margin: 0 -3px;
+        }
         &.active {
             display: flex;
         }
@@ -497,6 +503,10 @@ body {
                     background: $redColor;
                     opacity: 0;
                     transition: all .2s ease-in-out;
+                    @media(max-width: 480px) {
+                        font-size: 14px;
+                        padding: 15px;
+                    }
                 }
                 &:before {
                     content: "";
@@ -599,6 +609,7 @@ body {
                     padding: 15px;
                     @media(max-width: 480px) {
                         font-size: 16px;
+                        padding: 10px;
                     }
                     .price {
                         justify-content: normal;

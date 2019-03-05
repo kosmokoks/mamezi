@@ -713,6 +713,18 @@ body {
   display: none;
 }
 
+@media (max-width: 767px) {
+  .main-wrapper .row {
+    margin: 0 -5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-wrapper .row {
+    margin: 0 -3px;
+  }
+}
+
 .main-wrapper .row.active {
   display: -ms-flexbox;
   display: flex;
@@ -788,6 +800,13 @@ body {
   background: #ea2423;
   opacity: 0;
   transition: all .2s ease-in-out;
+}
+
+@media (max-width: 480px) {
+  .main-wrapper .row > div .inner-box:after {
+    font-size: 14px;
+    padding: 15px;
+  }
 }
 
 .main-wrapper .row > div .inner-box:before {
@@ -938,6 +957,7 @@ body {
 @media (max-width: 480px) {
   .main-wrapper .row > div .inner-box .bottom {
     font-size: 16px;
+    padding: 10px;
   }
 }
 
