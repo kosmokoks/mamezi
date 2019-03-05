@@ -82,7 +82,7 @@ $(document).ready(function () {
                         }
                     });
                 } else {
-                    results.push('<a>Niestety nic nie znaleziono</a>');
+                    results.push('<div>Brak przedmiotów</div>');
                 }
                 $('.row').addClass('active').html(results);
             },
@@ -94,6 +94,7 @@ $(document).ready(function () {
 
         changeLimitBtn.click(function (e) {
             e.stopPropagation();
+            $('.row').removeClass('active');
             changeLimitBtn.removeClass('active');
             $(this).addClass('active');
 
