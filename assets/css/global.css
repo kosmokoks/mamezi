@@ -340,6 +340,7 @@ body {
 @media (max-width: 1400px) {
   .main-wrapper header > div .discount .text {
     font-size: 18px;
+    top: 26px;
   }
 }
 
